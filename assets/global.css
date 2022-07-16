@@ -1,0 +1,26 @@
+html {
+  font-size: 16px;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+  font-family: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgba(227, 227, 227, 0.1);
+}
+
+h1, h2, h3 {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
