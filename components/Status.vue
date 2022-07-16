@@ -38,7 +38,6 @@ export default {
         const data = await fetch(`https://api.sitemap-generator.ru/task/stats/${taskId}`);
         const resp = await data.json();
         if (resp.finished) {
-          debugger;
           this.$emit('mapGenerateFinished');
           this.state.current = this.state.totalCount;
           this.state.finished = true;
